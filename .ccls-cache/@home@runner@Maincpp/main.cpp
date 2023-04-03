@@ -25,9 +25,11 @@ int main() {
     cin >> userNum;
 
     if (userNum != -1) {
+      // Math operations for userNumSquared and userNumSqrt are first
       userNumSquared = userNum * userNum;
       userNumSqrt = userNum / userNum;
 
+      // Each output is followed by a space to look clean
       cout << userNum << " ";
       cout << userNumSquared << " ";
       cout << userNumSqrt << " ";
